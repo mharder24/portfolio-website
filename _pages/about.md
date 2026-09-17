@@ -51,9 +51,3 @@ Merissa has experience turning designs into working hardware and software.
 * React, Git
 * Intel Quartus, LTspice
 * DE10-Lite FPGA, Arduino
-
-## Publications & Awards
-
-Coming soon.
-
-<img src="/assets/img/Headshot.jpg" alt="Merissa Harder" style="width:200px;"/>
