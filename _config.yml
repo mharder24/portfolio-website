@@ -1,0 +1,75 @@
+# ---------------------------------------------------------------
+# Site settings  (edit the lines marked EDIT ME)
+# ---------------------------------------------------------------
+remote_theme: "mmistakes/minimal-mistakes@4.26.2"
+minimal_mistakes_skin: "default"   # other options: "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
+locale: "en-US"
+title: "Merissa Harder"
+subtitle: "Digital Fabrication Portfolio"
+name: "Merissa Harder"
+description: "Merissa Harder is an Electrical & Computer Engineering student at Vanderbilt University with a minor in Digital Fabrication. This site is a portfolio of her work in additive manufacturing, embedded systems, and assistive technology."
+url: "https://mharder24.github.io"
+baseurl: ""
+repository: "mharder24/mharder24.github.io"
+search: true
+
+# The site's sidebar card (seen on the About and project pages).
+# Per the assignment: do NOT add your Vanderbilt email, phone number, or home address.
+author:
+  name: "Merissa Harder"
+  avatar: "/assets/images/profile.jpg"
+  bio: "Electrical & Computer Engineering student building assistive technology and digital fabrication projects"
+  location: "Nashville, TN"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/mharder24"
+
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/mharder24"
+
+# ---------------------------------------------------------------
+# Build settings (you shouldn't need to change these)
+# ---------------------------------------------------------------
+markdown: kramdown
+permalink: /:categories/:title/
+timezone: America/Chicago
+
+include:
+  - _pages
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+
+# Portfolio collection: every file in _portfolio/ becomes a project page
+# and shows up automatically on the Portfolio Archive page.
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: false
+      share: false
+      toc: true
+      toc_sticky: true
