@@ -50,7 +50,7 @@ Syringe pumps deliver small, precise volumes of fluid and are used in laboratori
 
 # Arduino Code
 
-The Arduino code for this project is available on GitHub: [syringe_pump.ino](https://github.com/mharder24/mharder24.github.io/blob/main/code/syringe_pump.ino)
+The Arduino code for this project is available on GitHub: [syringe_pump.ino](https://github.com/mharder24/portfolio-website/blob/main/code/syringe_pump.ino)
 
 # CAD Model
 

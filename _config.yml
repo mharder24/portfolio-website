@@ -1,4 +1,4 @@
-﻿# Welcome to Jekyll!
+# Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your entire site, values
 # which you are expected to set up once and rarely need to edit after that.
@@ -17,8 +17,8 @@ subtitle                 : "Digital Fabrication Portfolio"
 name                     : &name "Merissa Harder" # &name is a YAML anchor which can be *referenced later
 description              : &description "Digital fabrication portfolio of Merissa Harder, Electrical & Computer Engineering student at Vanderbilt University"
 url                      : https://mharder24.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : 
+baseurl                  : "/portfolio-website" # the subpath of your site, e.g. "/blog"
+repository               : "mharder24/portfolio-website"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
