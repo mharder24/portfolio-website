@@ -5,15 +5,15 @@ header:
   image: /assets/img/Syringe-Pump-Banner.jpg
   teaser: /assets/img/Syringe-Pump-Thumbnail.jpg
 gallery:
-  - url: /assets/img/Syringe-Pump-1.jpg
-    image_path: assets/img/Syringe-Pump-1.jpg
-    alt: "Syringe pump photo 1"
-  - url: /assets/img/Syringe-Pump-2.jpg
-    image_path: assets/img/Syringe-Pump-2.jpg
-    alt: "Syringe pump photo 2"
-  - url: /assets/img/Syringe-Pump-3.jpg
-    image_path: assets/img/Syringe-Pump-3.jpg
-    alt: "Syringe pump photo 3"
+  - url: /assets/img/Syringe_Pump_1.png
+    image_path: assets/img/Syringe_Pump_1.png
+    alt: "Syringe pump CAD render, front three-quarter view"
+  - url: /assets/img/Syringe_Pump_2.png
+    image_path: assets/img/Syringe_Pump_2.png
+    alt: "Syringe pump CAD render, rear three-quarter view"
+  - url: /assets/img/Syringe_Pump_3.png
+    image_path: assets/img/Syringe_Pump_3.png
+    alt: "Syringe pump CAD render, side view"
 ---
 
 Syringe pumps deliver small, precise volumes of fluid and are used in laboratories for drug delivery, microfluidics, and chemical synthesis. Commercial pumps can cost hundreds of dollars, so this project uses 3D printed parts and low-cost electronics to build an affordable, open-source alternative. [Edit this paragraph to describe your design.]
