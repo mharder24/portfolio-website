@@ -14,10 +14,16 @@ feature_row:
     alt: "Syringe Pump"
     title: "Syringe Pump"
     excerpt: "An Arduino-controlled pump for precise fluid dispensing."
+    url: "/portfolio/SyringePump/"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
   - image_path: assets/img/Hand-Orthotic-Thumbnail.jpg
     alt: "Assistive Hand Orthotic"
     title: "Assistive Hand Orthotic"
     excerpt: "A custom 3D printed brace that restores fine-motor tasks."
+    url: "/portfolio/HandOrthotic/"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
   - image_path: assets/img/RISC-V-Thumbnail.jpg
     alt: "RISC-V Processor on FPGA"
     title: "RISC-V Processor"
