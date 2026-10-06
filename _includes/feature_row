@@ -8,6 +8,7 @@
 
   {% for f in feature_row %}
     <div class="feature__item{% if include.type %}--{{ include.type }}{% endif %}">
+      {% if f.url %}<a class="feature__link" href="{{ f.url | relative_url }}">{% endif %}
       <div class="archive__item">
         {% if f.image_path %}
           <div class="archive__item-teaser">
@@ -30,11 +31,12 @@
             </div>
           {% endif %}
 
-          {% if f.url %}
-            <p><a href="{{ f.url | relative_url }}" class="btn {{ f.btn_class }}">{{ f.btn_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>
+          {% if f.url and f.btn_label %}
+            <p><span class="btn {{ f.btn_class }}">{{ f.btn_label }}</span></p>
           {% endif %}
         </div>
       </div>
+      {% if f.url %}</a>{% endif %}
     </div>
   {% endfor %}
 

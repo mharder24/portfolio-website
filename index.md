@@ -14,10 +14,12 @@ feature_row:
     alt: "Syringe Pump"
     title: "Syringe Pump"
     excerpt: "An Arduino-controlled pump for precise fluid dispensing."
+    url: "/portfolio/SyringePump/"
   - image_path: assets/img/Sleep_Brace_On_User.png
     alt: "Assistive Hand Orthotic"
     title: "Assistive Hand Orthotic"
     excerpt: "A custom 3D printed brace that restores fine-motor tasks."
+    url: "/portfolio/HandOrthotic/"
 ---
 
 {% include feature_row %}
