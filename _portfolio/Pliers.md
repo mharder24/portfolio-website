@@ -36,11 +36,11 @@ PLA works the best for print in place, especially if you can only print with one
 
 # Design and Iterations
 
-Using the designs of current pliers and tweezers on the market, this design combined both into a unique idea. The first iteration used a pivot, however, in order to have a more clean design, the pivot was scraped. The second iteration was then scaled down inorder to pick up smaller items such as a resistor.
+Using the designs of current pliers and tweezers on the market, this design combined both into a unique idea. The first iteration used a pivot, however, in order to have a more clean design, the pivot was scraped. The second iteration was then scaled down inorder to pick up smaller items such as a resistor. After printing, the jaw would nto fully close, therefore another iteration was needed. The pivot point of pliers was shrunk and the handle were enlongated to make the pivot more in the back of the pliers like tweezers. 
 
 ## The Spring
 
-The spring was created using a semi-circle design since the sides will collaspe inward when outside force squeezes them together. 
+The spring was created using a semi-circle design since the sides will collaspe inward when outside force squeezes them together. Multiple iterations were made for different infill percentage to see which one would have the best balance of felxiability and elasticity.
 
 ## Materials Used
 
