@@ -88,11 +88,7 @@ PLA was used for the rigid parts of the pliers since it is cheap and sturdy, esp
 
 # Pliers in Action
 
-[GIF of the pliers working goes here.]
-
-<!-- Once your GIF is in assets/img, replace the line above with:
 ![Pliers opening and closing]({{ "/assets/img/Pliers.gif" | relative_url }})
--->
 
 
 # Gallery
