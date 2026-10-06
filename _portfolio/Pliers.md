@@ -1,8 +1,18 @@
 ---
-title: "Print-in-Place Pliers"
-excerpt: "Working pliers 3D printed in one piece, with a built-in spring."
+title: "Multi-material Pliers"
+excerpt: "Working pliers 3D printed with two materials."
 header:
   teaser: /assets/img/Pliers_Thumbnail.jpg
+gallery:
+- url: /assets/img/Pliers_Arm_ver1.jpg
+  image_path: assets/img/Pliers_Arm_ver1.jpg
+  alt: "Plier Arm CAD render, front three-quarter view"
+- url: /assets/img/Pliers_Assembly_finalver.jpg
+  image_path: assets/img/Pliers_Assembly_finalver.jpg
+  alt: "Pliers CAD render, front three-quarter view"
+- url: /assets/img/Syringe_Pump_3.png
+  image_path: assets/img/Syringe_Pump_3.png
+  alt: "Syringe pump CAD render, side view"
 ---
 
 [Introduce the project: what you made and why it's interesting.]
@@ -26,7 +36,7 @@ header:
 # CAD Model
 
 <!-- Replace the src link below with your Fusion 360 embed link (Share > Public Link > Embed). -->
-<iframe src="https://YOUR-FUSION-360-EMBED-LINK" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" frameborder="0"></iframe>
+<iframe src="https://a360.co/4hKPbP8" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" frameborder="0"></iframe>
 
 # Design and Iterations
 
@@ -44,21 +54,35 @@ header:
 
 | Specification | Value |
 |:--------------|:-----:|
-| Jaw length | [ ] mm |
+| Jaw length | 30 mm |
 | Jaw capacity | [ ] mm |
 
 # Print Settings
-
+Plier Arms
 | Setting | Value |
 |:--------|:-----:|
-| Printer | [ ] |
-| Material | [ ] |
-| Layer height | [ ] mm |
-| Infill | [ ] % |
-| Nozzle temperature | [ ] °C |
-| Bed temperature | [ ] °C |
-| Supports | [ ] |
-| Print time | [ ] |
+| Material | PLA |
+| Shell layers | 3 |
+| Perimeter | 2 |
+| Infill | 25 % |
+| Layer Type | Gyroid |
+| Nozzle temperature | 215 °C |
+| Bed temperature | 65 °C |
+| Supports | None |
+| Print time | ~1 hour |
+
+Spring
+| Setting | Value |
+|:--------|:-----:|
+| Material | TPU |
+| Shell layers | 3 |
+| Perimeter | 3 |
+| Infill | 10 % |
+| Layer Type | Rectilinear |
+| Nozzle temperature | 230 °C |
+| Bed temperature | 60 °C |
+| Supports | None |
+| Print time | ~3 hours |
 
 # Pliers in Action
 
