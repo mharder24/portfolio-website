@@ -12,11 +12,11 @@ gallery:
   alt: "Pliers assembly CAD render, final version"
 ---
 
-Using PLA and TPU, I created a multimaterial pliers in a crossover teweezer design. When pinching the handles of the teweezers it forces the jaws to come together, pinching whatever is them. 
+Using PLA and TPU, I created a multimaterial pliers in a crossover tweezer design. When pinching the handles of the tweezers it forces the jaws to come together, pinching whatever is them. 
 
 # What Is Print-in-Place?
 
-It is a 3D printing technique when an object with moving or interlocking parts are printed as a single fulley assembled piece in one continuous print session. 
+It is a 3D printing technique when an object with moving or interlocking parts are printed as a single fully assembled piece in one continuous print session. 
 
 ## Where Else It's Used
 
@@ -27,7 +27,7 @@ Print-in-place connect interlocked parts using joints such as hinges, ball and s
 
 ## Materials That Work Well
 
-PLA works the best for print in place, especially if you can only print with one material. It has low warping, clean bridging over internal gaps, and crisp edge definitions. If you can print with multiple materials, a good addition would be PETG for high-stress parts that might need higher impact resistance or thermal durabiltity. 
+PLA works the best for print in place, especially if you can only print with one material. It has low warping, clean bridging over internal gaps, and crisp edge definitions. If you can print with multiple materials, a good addition would be PETG for high-stress parts that might need higher impact resistance or thermal durability. 
 
 # CAD Model
 
@@ -36,15 +36,15 @@ PLA works the best for print in place, especially if you can only print with one
 
 # Design and Iterations
 
-Using the designs of current pliers and tweezers on the market, this design combined both into a unique idea. The first iteration used a pivot, however, in order to have a more clean design, the pivot was scraped. The second iteration was then scaled down inorder to pick up smaller items such as a resistor. After printing, the jaw would nto fully close, therefore another iteration was needed. The pivot point of pliers was shrunk and the handle were enlongated to make the pivot more in the back of the pliers like tweezers. 
+Using the designs of current pliers and tweezers on the market, this design combined both into a unique idea. The first iteration used a pivot, however, in order to have a more clean design, the pivot was scrapped. The second iteration was then scaled down in order to pick up smaller items such as a resistor. After printing, the jaw would not fully close, therefore another iteration was needed. The pivot point of pliers was shrunk and the handles were elongated to make the pivot more in the back of the pliers like tweezers. 
 
 ## The Spring
 
-The spring was created using a semi-circle design since the sides will collaspe inward when outside force squeezes them together. Multiple iterations were made for different infill percentage to see which one would have the best balance of felxiability and elasticity.
+The spring was created using a semi-circle design since the sides will collapse inward when outside force squeezes them together. Multiple iterations were made for different infill percentage to see which one would have the best balance of flexibility and elasticity.
 
 ## Materials Used
 
-PLA was used for the rigid parts of the pliers since it is a cheap and sturdy material to use, especially when making mutiple iterations of the design. For the spring, the material that was used was TPU due to its flexibitty and elasticity. 
+PLA was used for the rigid parts of the pliers since it is a cheap and sturdy material to use, especially when making multiple iterations of the design. For the spring, the material that was used was TPU due to its flexibility and elasticity. 
 
 # Specifications
 
