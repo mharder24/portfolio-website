@@ -12,23 +12,22 @@ gallery:
   alt: "Pliers assembly CAD render, final version"
 ---
 
-[Introduce the project: what you made and why it's interesting.]
+Using PLA and TPU, I created a multimaterial pliers in a crossover teweezer design. When pinching the handles of the teweezers it forces the jaws to come together, pinching whatever is them. 
 
 # What Is Print-in-Place?
 
-[Explain print-in-place parts in your own words.]
+It is a 3D printing technique when an object with moving or interlocking parts are printed as a single fulley assembled piece in one continuous print session. 
 
 ## Where Else It's Used
 
-[Link specific examples you found in your research.]
+Print-in-place connect interlocked parts using joints such as hinges, ball and socket, or chain link. These includes objects such as fidget toys like the infinity cube to chainmail that can be used in costume making.
 
-* [Example 1](https://example.com)
-* [Example 2](https://example.com)
-* [Example 3](https://example.com)
+* [Infinity Cube](https://www.printables.com/model/652108-infinity-cube-print-in-place)
+* [Chainmail](https://www.instructables.com/Print-in-Place-Chainmail-Jewelry/)
 
 ## Materials That Work Well
 
-[Which combinations of materials work well for print-in-place, and why?]
+PLA works the best for print in place, especially if you can only print with one material. It has low warping, clean bridging over internal gaps, and crisp edge definitions. If you can print with multiple materials, a good addition would be PETG for high-stress parts that might need higher impact resistance or thermal durabiltity. 
 
 # CAD Model
 
@@ -37,15 +36,15 @@ gallery:
 
 # Design and Iterations
 
-[Walk through your design process and how it changed between iterations.]
+Using the designs of current pliers and tweezers on the market, this design combined both into a unique idea. The first iteration used a pivot, however, in order to have a more clean design, the pivot was scraped. The second iteration was then scaled down inorder to pick up smaller items such as a resistor.
 
 ## The Spring
 
-[How was the spring created, and how is it retained in the model?]
+The spring was created using a semi-circle design since the sides will collaspe inward when outside force squeezes them together. 
 
 ## Materials Used
 
-[Which materials you printed with and why.]
+PLA was used for the rigid parts of the pliers since it is a cheap and sturdy material to use, especially when making mutiple iterations of the design. For the spring, the material that was used was TPU due to its flexibitty and elasticity. 
 
 # Specifications
 
@@ -62,7 +61,7 @@ gallery:
 |:--------|:-----:|
 | Material | PLA |
 | Shell layers | 3 |
-| Perimeter | 2 |
+| Perimeter | 3 |
 | Infill | 25 % |
 | Layer Type | Gyroid |
 | Nozzle temperature | 215 °C |
@@ -77,7 +76,7 @@ gallery:
 | Material | TPU |
 | Shell layers | 3 |
 | Perimeter | 3 |
-| Infill | 10 % |
+| Infill | 5 % |
 | Layer Type | Rectilinear |
 | Nozzle temperature | 230 °C |
 | Bed temperature | 60 °C |
