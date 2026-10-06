@@ -20,10 +20,10 @@ feature_row:
     title: "Assistive Hand Orthotic"
     excerpt: "A custom 3D printed brace that restores fine-motor tasks."
     url: "/portfolio/HandOrthotic/"
-  - image_path: assets/img/Pliers_Thumbnail.jpg
-    alt: "Print-in-Place Pliers"
-    title: "Print-in-Place Pliers"
-    excerpt: "Working pliers 3D printed in one piece, with a built-in spring."
+  - image_path: assets/img/Pliers_Card.jpg
+    alt: "Multi-material Pliers"
+    title: "Multi-material Pliers"
+    excerpt: "Working pliers 3D printed with two materials."
     url: "/portfolio/Pliers/"
 ---
 

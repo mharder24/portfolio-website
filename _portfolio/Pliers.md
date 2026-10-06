@@ -2,17 +2,14 @@
 title: "Multi-material Pliers"
 excerpt: "Working pliers 3D printed with two materials."
 header:
-  teaser: /assets/img/Pliers_Thumbnail.jpg
+  teaser: /assets/img/Pliers_Card.jpg
 gallery:
 - url: /assets/img/Pliers_Arm_ver1.jpg
   image_path: assets/img/Pliers_Arm_ver1.jpg
   alt: "Plier Arm CAD render, front three-quarter view"
 - url: /assets/img/Pliers_Assembly_finalver.jpg
   image_path: assets/img/Pliers_Assembly_finalver.jpg
-  alt: "Pliers CAD render, front three-quarter view"
-- url: /assets/img/Syringe_Pump_3.png
-  image_path: assets/img/Syringe_Pump_3.png
-  alt: "Syringe pump CAD render, side view"
+  alt: "Pliers assembly CAD render, final version"
 ---
 
 [Introduce the project: what you made and why it's interesting.]
@@ -58,7 +55,9 @@ gallery:
 | Jaw capacity | [ ] mm |
 
 # Print Settings
-Plier Arms
+
+## Plier Arms
+
 | Setting | Value |
 |:--------|:-----:|
 | Material | PLA |
@@ -71,7 +70,8 @@ Plier Arms
 | Supports | None |
 | Print time | ~1 hour |
 
-Spring
+## Spring
+
 | Setting | Value |
 |:--------|:-----:|
 | Material | TPU |
@@ -95,5 +95,4 @@ Spring
 
 # Gallery
 
-<!-- Add iteration and final photos to assets/img, then list them in a gallery like the Syringe Pump page. -->
-[Add photos of your iterations and the final pliers.]
+{% include gallery caption="Pliers Gallery" %}
