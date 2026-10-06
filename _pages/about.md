@@ -26,7 +26,7 @@ Merissa is an Electrical & Computer Engineering student who enjoys building tech
   * Extended the RV32I instruction set with a custom XOR instruction
 * **Game Operations Intern**, Vanderbilt Ice Hockey (2024 – Present)
   * Operate scoreboard and live-stream broadcast systems on game days
-* **Secretary**, Vanderbilt Gaming (2024 – Present)
+* **Publicity Chair**, Vanderbilt Gaming (2024 – Present)
   * Wrote onboarding documentation for incoming board members and manage club promotions
 
 ## Technical Skills
@@ -37,6 +37,7 @@ Merissa has experience turning designs into working hardware and software.
 
 * Fused Filament Fabrication (FFF) 3D Printing
 * Arduino Stepper Motor Control (AccelStepper)
+* Fusion 360
 * OnShape CAD
 
 **Programming Languages**
