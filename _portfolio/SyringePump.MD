@@ -3,7 +3,7 @@ title: "Syringe Pump"
 excerpt: "An Arduino-controlled, 3D printed syringe pump for precise and programmable fluid dispensing."
 header:
   image: /assets/img/Syringe-Pump-Banner.jpg
-  teaser: /assets/img/Syringe-Pump-Banner.jpg
+  teaser: /assets/img/Syringe_Pump_Thumbnail.jpg
 gallery:
   - url: /assets/img/Syringe_Pump_1.png
     image_path: assets/img/Syringe_Pump_1.png

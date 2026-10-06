@@ -15,11 +15,16 @@ feature_row:
     title: "Syringe Pump"
     excerpt: "An Arduino-controlled pump for precise fluid dispensing."
     url: "/portfolio/SyringePump/"
-  - image_path: assets/img/Sleep_Brace_On_User.png
+  - image_path: assets/img/Hand_Orthotic_Card.jpg
     alt: "Assistive Hand Orthotic"
     title: "Assistive Hand Orthotic"
     excerpt: "A custom 3D printed brace that restores fine-motor tasks."
     url: "/portfolio/HandOrthotic/"
+  - image_path: assets/img/Pliers_Thumbnail.jpg
+    alt: "Print-in-Place Pliers"
+    title: "Print-in-Place Pliers"
+    excerpt: "Working pliers 3D printed in one piece, with a built-in spring."
+    url: "/portfolio/Pliers/"
 ---
 
 {% include feature_row %}
