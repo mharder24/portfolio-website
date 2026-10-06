@@ -44,3 +44,25 @@ a.feature__link:visited {
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
   }
 }
+
+// Keep feature cards in a row the same height
+@include breakpoint($small) {
+  .feature__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+
+    &::before,
+    &::after {
+      display: none;
+    }
+  }
+
+  .feature__wrapper > .feature__item {
+    display: flex;
+    padding-bottom: 2em;
+
+    > a.feature__link {
+      flex: 1;
+    }
+  }
+}
