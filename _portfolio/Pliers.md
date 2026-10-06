@@ -10,24 +10,27 @@ gallery:
 - url: /assets/img/Pliers_Assembly_finalver.jpg
   image_path: assets/img/Pliers_Assembly_finalver.jpg
   alt: "Pliers assembly CAD render, final version"
+- url: /assets/img/Pliers_Final_Photo.jpg
+  image_path: assets/img/Pliers_Final_Photo.jpg
+  alt: "Printed pliers held in hand"
 ---
 
-Using PLA and TPU, I created a multimaterial pliers in a crossover tweezer design. When pinching the handles of the tweezers it forces the jaws to come together, pinching whatever is them. 
+Using PLA and TPU, I created multimaterial pliers in a crossover tweezer design. Pinching the handles forces the jaws to come together, gripping whatever is between them. 
 
 # What Is Print-in-Place?
 
-It is a 3D printing technique when an object with moving or interlocking parts are printed as a single fully assembled piece in one continuous print session. 
+Print-in-place is a 3D printing technique in which an object with moving or interlocking parts is printed as a single, fully assembled piece in one continuous print session. 
 
 ## Where Else It's Used
 
-Print-in-place connect interlocked parts using joints such as hinges, ball and socket, or chain link. These includes objects such as fidget toys like the infinity cube to chainmail that can be used in costume making.
+Print-in-place connects interlocked parts using joints such as hinges, ball-and-socket joints, or chain links. Examples range from fidget toys like the infinity cube to chainmail used in costume making.
 
 * [Infinity Cube](https://www.printables.com/model/652108-infinity-cube-print-in-place)
 * [Chainmail](https://www.instructables.com/Print-in-Place-Chainmail-Jewelry/)
 
 ## Materials That Work Well
 
-PLA works the best for print in place, especially if you can only print with one material. It has low warping, clean bridging over internal gaps, and crisp edge definitions. If you can print with multiple materials, a good addition would be PETG for high-stress parts that might need higher impact resistance or thermal durability. 
+PLA works best for print-in-place, especially if you can only print with one material. It has low warping, clean bridging over internal gaps, and crisp edge definition. If you can print with multiple materials, a good addition would be PETG for high-stress parts that might need higher impact resistance or thermal durability. 
 
 # CAD Model
 
@@ -36,15 +39,15 @@ PLA works the best for print in place, especially if you can only print with one
 
 # Design and Iterations
 
-Using the designs of current pliers and tweezers on the market, this design combined both into a unique idea. The first iteration used a pivot, however, in order to have a more clean design, the pivot was scrapped. The second iteration was then scaled down in order to pick up smaller items such as a resistor. After printing, the jaw would not fully close, therefore another iteration was needed. The pivot point of pliers was shrunk and the handles were elongated to make the pivot more in the back of the pliers like tweezers. 
+Using the designs of current pliers and tweezers on the market, this design combined both into a unique idea. The first iteration used a pivot; however, to keep the design cleaner, the pivot was scrapped. The second iteration was then scaled down to pick up smaller items such as a resistor. After printing, the jaws would not fully close, so another iteration was needed. The pivot point of the pliers was shrunk and the handles were elongated to move the pivot toward the back of the pliers, like tweezers. 
 
 ## The Spring
 
-The spring was created using a semi-circle design since the sides will collapse inward when outside force squeezes them together. Multiple iterations were made for different infill percentage to see which one would have the best balance of flexibility and elasticity.
+The spring was created using a semi-circle design since the sides collapse inward when an outside force squeezes them together. Multiple iterations were printed with different infill percentages to see which one had the best balance of flexibility and elasticity.
 
 ## Materials Used
 
-PLA was used for the rigid parts of the pliers since it is a cheap and sturdy material to use, especially when making multiple iterations of the design. For the spring, the material that was used was TPU due to its flexibility and elasticity. 
+PLA was used for the rigid parts of the pliers since it is cheap and sturdy, especially when making multiple iterations of the design. TPU was used for the spring due to its flexibility and elasticity. 
 
 # Specifications
 
