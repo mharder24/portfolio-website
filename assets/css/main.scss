@@ -8,21 +8,39 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-// Make whole feature cards clickable
-a.feature__link {
+// Make whole feature cards clickable, styled as buttons
+a.feature__link,
+a.feature__link:visited {
   display: block;
-  color: inherit;
+  height: 100%;
+  padding: 1em;
+  color: $text-color;
   text-decoration: none;
-  border-radius: 4px;
-  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  background: $background-color;
+  border: 1px solid $border-color;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+
+  .archive__item-title,
+  .archive__item-excerpt {
+    color: $text-color;
+    text-decoration: none;
+  }
+
+  .archive__item-teaser {
+    border-radius: 4px;
+  }
 
   &:hover,
   &:focus {
     transform: translateY(-3px);
-    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+    border-color: $primary-color;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
   }
 
-  &:hover .archive__item-title {
-    text-decoration: underline;
+  &:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
   }
 }
