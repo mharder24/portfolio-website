@@ -10,14 +10,14 @@ header:
       url: "/portfolio/"
 excerpt: "Merissa Harder is an Electrical & Computer Engineering student at Vanderbilt University with a minor in Digital Fabrication. This website is a portfolio of her work in 3D printing, embedded systems, and assistive technology."
 feature_row:
-  - image_path: assets/img/Syringe-Pump-Thumbnail.jpg
+  - image_path: assets/img/Syringe_Pump_Thumbnail.jpg
     alt: "Syringe Pump"
     title: "Syringe Pump"
     excerpt: "An Arduino-controlled pump for precise fluid dispensing."
     url: "/portfolio/SyringePump/"
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - image_path: assets/img/Hand-Orthotic-Thumbnail.jpg
+  - image_path: assets/img/Hand_Orthotic_Thumbnail.jpg
     alt: "Assistive Hand Orthotic"
     title: "Assistive Hand Orthotic"
     excerpt: "A custom 3D printed brace that restores fine-motor tasks."
