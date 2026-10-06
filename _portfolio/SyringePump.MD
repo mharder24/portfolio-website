@@ -33,7 +33,7 @@ Syringe pumps deliver small, precise volumes of fluid and are used in laboratori
 | NEMA 17 Stepper Motor | 1 | Drives the lead screw |
 | A4988 Stepper Driver | 1 | Powers the motor |
 | T8 Lead Screw and Nut | 1 | Converts rotation to linear motion |
-| 8 mm Smooth Rods | 1 | Linear guides |
+| 8 mm Smooth Rod | 1 | Linear guide |
 | LM8UU Linear Bearings | 2 | Carriage bearings |
 | Shaft Coupler (5 mm to 8 mm) | 1 | Connects motor to lead screw |
 | 12 V Power Supply | 1 | Motor power |
