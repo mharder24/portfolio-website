@@ -62,7 +62,7 @@ The Arduino code for this project is available on GitHub: [syringe_pump.ino](htt
 1. **Load the syringe.** Fill the syringe, place it in the clamp, and seat the plunger against the carriage.
 2. **Connect power.** Plug the Arduino into a computer over USB and connect the 12 V power supply.
 3. **Set the flow.** Open `syringe_pump.ino`, enter the desired flow rate and volume, and upload the code.
-4. **Run the pump.** [Describe how you start the pump.]
+4. **Run the pump.** Open the Serial Monitor at 115200 baud and type `s` to start dispensing. Type `x` to stop early, or `r` to retract the plunger.
 5. **Finish.** Disconnect power, remove the syringe, and clean up any spills.
 
 {% include gallery caption="Syringe Pump Gallery" %}
