@@ -2,6 +2,7 @@
 title: "Assistive Hand Orthotic"
 excerpt: "A custom 3D printed brace that restores fine-motor tasks."
 header:
+  image: /assets/img/Hand-Orthotic-Banner.jpg
   teaser: /assets/img/Hand-Orthotic-Thumbnail.jpg
 ---
 
